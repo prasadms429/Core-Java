@@ -15,3 +15,28 @@ public class StringMethods2
 		
 		}
 }
+
+
+// NAME PARSER
+import java.util.Scanner;
+public class NameParser
+{
+	public static void main(String[] args) {
+		Scanner keyboard=new Scanner(System.in);
+		String Fullname;
+		System.out.println("Enter the your Full name:");
+		Fullname=keyboard.nextLine();
+		
+		int findIndexOfSpace=Fullname.indexOf(" ");
+		String FirstName=Fullname.substring(0,findIndexOfSpace);        // The second overloaded method "findIndexOfSpace" in substring takes till one character less than it, without including specified index in second parameter.
+		
+		String LastName=Fullname.substring(findIndexOfSpace+1);     // In LastName if specifies first index of starting LastName, then there is no need to specify ending index, because we requires all the characters after that. So, without specifying second parameter, it prints all characters.
+		
+		FirstName=FirstName.toUpperCase();      // It creates new object and converts that into Upper case, without modifing the value stored in that FirstName directly.
+		LastName=LastName.toLowerCase();
+		
+		System.out.println("First name is "+FirstName);
+		System.out.println("Last name is "+LastName);
+		
+	}
+}
