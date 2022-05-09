@@ -12,6 +12,5 @@ public class StringMethods2
 		System.out.println("Lower is "+lower);
 		System.out.println("B is at index of "+whereIsB);
 		System.out.println("Last name is "+lastName);
-		
-	}
+		}
 }
