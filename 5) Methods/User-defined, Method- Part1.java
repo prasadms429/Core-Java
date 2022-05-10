@@ -7,7 +7,7 @@ public class Main
 		int result= giveMe10();
 		System.out.println(result);
 		
-		result=addTheseTwo(10,10);
+		result=addTheseTwo(10,10);		// In this call by value "10,10" are called arguments.
 		System.out.println(result);
 		
 		double dresult;
@@ -34,7 +34,7 @@ public class Main
 	}
 	
 	// return, parameterized
-	public static int addTheseTwo(int num1,int num2){
+	public static int addTheseTwo(int num1,int num2){	// In this defining method, "num1 and num2" are parameters.
 	    return num1+num2;
 	}
 	
