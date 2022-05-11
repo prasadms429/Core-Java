@@ -1,4 +1,4 @@
-public class House      // Object is an entity that contains Behavior and data. Encapsulation contains methods and data in it.
+public class House // This is a House class,     // Object is an entity that contains Behavior and data. Encapsulation contains methods and data in it.
 {
     private int numStories;     // These 3 lines are fields.
     private int numWindows;
@@ -21,7 +21,7 @@ public class House      // Object is an entity that contains Behavior and data. 
     }
     
     
-    public int getNumStories()
+    public int getNumStories()      // These are methods.
     {
         return numStories;
     }
