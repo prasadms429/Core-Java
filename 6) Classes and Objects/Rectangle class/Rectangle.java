@@ -2,7 +2,7 @@ public class Rectangle{
     private int length;
     private int width;
     
-    private static int numRectangle;
+    private static int numRectangle;    // Once we declared static for a varible, it and its value assigned to it remains until the life time of class, but in method it will destroy after its execution. "Static variable can be used without object creation".
     
     public Rectangle(){
         this(1,1);
