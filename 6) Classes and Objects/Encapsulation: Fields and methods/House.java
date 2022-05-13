@@ -1,6 +1,6 @@
-public class House // This is a House class,     // Object is an entity that contains Behavior and data. Encapsulation contains methods and data in it.
+public class House // This is a House class,     // Object is an entity that contains Behavior and data. Encapsulation contains methods and data in it.  The "Class" is a blue print for object. For example, The house is an object, which is constructed using its blueprint such as, design on paper.
 {
-    private int numStories;     // These 3 lines are fields.
+    private int numStories;     // These 3 lines are fields, which contains data.
     private int numWindows;
     private String color;
     
@@ -21,7 +21,7 @@ public class House // This is a House class,     // Object is an entity that con
     }
     
     
-    public int getNumStories()      // These are methods.
+    public int getNumStories()      // These are methods, which contains behaviour.
     {
         return numStories;
     }
